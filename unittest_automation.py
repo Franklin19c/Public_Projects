@@ -26,4 +26,4 @@ new_code += "\n\n\nif __name__ == '__main__':\n    unittest.main()\n"
 with open(f"test_{file_name}.py","w+") as f:
     f.write(new_code)
 
-print("File created.")
+print(f"File 'test_{file_name}.py' created.")
